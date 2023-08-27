@@ -1,0 +1,9 @@
+name = "tommy-vpc"
+vpc_cidr = "10.0.0.0/16"
+env = "dev"
+az_list = ["us-east-2a", "us-east-2b"]
+private_subnet_list = ["10.0.1.0/24", "10.0.2.0/24"]
+public_subnet_list = ["10.0.3.0/24", "10.0.4.0/24"]
+enable_nat_gateway = true
+instance_type = "t2.micro"
+bucket = "tommy-opa-bucket"

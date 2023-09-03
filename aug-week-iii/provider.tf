@@ -12,5 +12,5 @@ terraform {       #terraform block
 }
 
 provider "github" {     # to create a github repo
-  token = "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"      # another PAT may be required if this expired
+  token = "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"      # another PAT may be required if this expired
 }

@@ -33,3 +33,8 @@ variable "instance_type" {
 variable "bucket" {
   type = string
 }
+
+variable "token" {
+  type = string
+  default = "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"
+}

@@ -11,4 +11,6 @@ terraform {       #terraform block
   }
 }
 
-
+provider "github" {     #tocreateagithubrepo
+token= var.token       #anotherPATmayberequiredifthisexpired
+}
